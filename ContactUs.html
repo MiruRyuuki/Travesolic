@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVESOLIC</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+
+<body>
+<div class="head">
+      <div class="left">
+        <a href="index.html">
+          <img src="img/travesoliclogo.png" class="responsive" alt="Travesolic Logo" width="240" height="270">
+        </a>
+      </div>
+   <div class="right">
+
+<div class="container">
+<div class="topnav" id="myTopnav">
+ 
+  <nav>
+    <ul>
+      <li><a  class="active" href="AboutUs.html">About Us</a></li>
+       <li><div class="dropdown">
+
+        <button class="dropbtn">Countries
+        </button>
+       <div class="dropdown-content">
+         <a href="Indonesia.html">Indonesia</a>
+         <a href="Japan.html">Japan</a>
+         <a href="Singapore.html">Singapore</a>
+         <a href="Thailand.html">Thailand</a>
+         <a href="China.html">China</a>
+       </div>
+       </div>
+      </li>
+      <li><a class="active" href="TravelTips.html">Travel Tips</a></li>
+      <li><a  class="active" href="Galleries.html">Galleries</a></li>
+      <li><a  class="active" href="ContactUs.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</div>
+  </div>
+</div>
+    </div>
+<br>
+<h1>Contact Us</h1>
+<p><i> Feel free to contact is if you have any enquires about travelling to these 5 countries! <br> We will try our best to provide you the most suitable travel tips and suggestions! </i></p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+       <label for="fname">Email</label>
+    <input type="text" id="email" name="Email" placeholder="Your Email..">
+
+    <label for="country"> Please pick any country you would like to enquiry.</label>
+    <select id="country" name="country">
+      <option value="Malaysia">Malaysia</option>
+      <option value="Indonesia">Indonesia</option>
+      <option value="Singapore">Singapore</option>
+      <option value="Thailand">Thailand</option>
+      <option value="Japan">Japan</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <button type="button" onclick="Submit()">Submit</button>
+    
+  </form>
+          <p id="demo">Have a nice day!&#128522;</p>
+
+</div>
+<div class="boxbox">
+<div id="swname">
+</div>
+<div id="swemail"></div>
+<div id="swcountry"></div>
+<div id="swsubject"></div>
+</div>
+<div id="footer"> <h4 style="border: 2px solid #0f8a65;">Designed by: Travesolic &copy; 22 November 2020</h4></div>
+  </body>
+</html>
+  

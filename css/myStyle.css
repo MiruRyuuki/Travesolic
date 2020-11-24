@@ -1,0 +1,411 @@
+body{
+  background: linear-gradient(to left, #3fe2b1,#defff5);;
+}
+h2, p{
+  text-align: center;
+
+}
+h4{
+  text-align: center;
+}
+html,body,h1,h3,h4,h5,h6 p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2a4d4b;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14.2px 25px;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+
+li a:hover {
+  background-color: #83d4d2;
+}
+
+.dropdown {
+  list-style-type: none;
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+/* Dropdown button here countries */ 
+.dropdown .dropbtn {
+  display: block;
+  color: white;
+  padding: 14px 50px;
+  background-color: #2a4d4b;
+  text-align: center; 
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #96f2ef;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2a4d4b;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #96f2ef;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* TEMPLATE */
+.head {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.head img {
+  margin-top: 50px;
+}
+.left {
+  display: grid;
+}
+.right {
+  display: grid;
+  margin-top: 50px;
+  margin-bottom: 63px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  border: 2px solid black;
+}
+.intro {
+  text-align: center;
+  border: 2px solid black;
+}
+.pic1 {
+  display: grid;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 4px;
+}
+.pic2 {
+  display: grid;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 4px;
+}
+.pic3 {
+  display: grid;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 4px;
+}
+.desc1 {
+  display: grid;
+  text-align: center;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 4px;
+}
+.desc2 {
+  display: grid;
+  text-align: center;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 4px;
+}
+.desc3 {
+  display: grid;
+  text-align: center;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 4px;
+}
+.recommend {
+  display: inline;
+  font-size: 30px;
+}
+.tipss{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tips {
+  border: 2px solid black;
+  margin-top: 5px;
+}
+
+.logo{
+  width: 200px;
+  cursor: pointer;
+  margin: 11px;
+  
+}
+.tip1 {
+  border: 2px solid black;
+  margin: 5px;
+}
+.tip2 {
+  border: 2px solid black;
+  margin: 5px;
+}
+.tip3 {
+  border: 2px solid black;
+  margin: 5px;
+}
+.tip4 {
+  border: 2px solid black;
+  margin: 5px;
+}
+.tip5 {
+  border: 2px solid black;
+  margin: 5px;
+}
+.trtips {
+  text-align: center;
+}
+.AboutUsDiv{
+    width: 97vw;
+  height: 80vh;
+  padding: 20px;
+  border: 2px solid #0f8a65;
+}
+@media screen and (max-width: 800px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*alessa?*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Xian sheng */
+#tm-video-container {
+    max-height: 1000px;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+#tm-video {
+    width: 100%;
+    height: auto;
+}
+
+#tm-video-control-button {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    z-index: 1000;
+    color: #e1e1e1;
+}
+
+#tm-video-container1 {
+    max-height: 1000px;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+#tm-video1 {
+    width: 100%;
+    height: auto;
+}
+
+#tm-video-control-button1 {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    z-index: 1000;
+    color: #e1e1e1;
+}
+
+#tm-video-container2 {
+    max-height: 1000px;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+#tm-video2 {
+    width: 100%;
+    height: auto;
+}
+
+#tm-video-control-button2 {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    z-index: 1000;
+    color: #e1e1e1;
+}
+
+#tm-video-container3 {
+    max-height: 1000px;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+#tm-video3 {
+    width: 100%;
+    height: auto;
+}
+
+#tm-video-control-button3 {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    z-index: 1000;
+    color: #e1e1e1;
+}
+
+#tm-video-container4 {
+    max-height: 1000px;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+#tm-video4 {
+    width: 100%;
+    height: auto;
+}
+
+#tm-video-control-button4 {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    z-index: 1000;
+    color: #e1e1e1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/* Xian Sheng */
+
+/*Chelle Van*/
+
+.containerflag {
+ display: block;
+}
+.imageflag {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: relative;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 67%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+  margin: auto;
+}
+
+.containerflag:hover .overlay {
+  opacity: 1;
+}
+
+.boxbox {
+  border: 3px solid black;
+  margin-top: 10px;
+}
